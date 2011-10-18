@@ -19,23 +19,24 @@ public class Main extends JavaPlugin{
 		log.info(name+build+"has been disabled");
 		
 	}
+	
 	public void onEnable() {
     	  log.info(name+build+"has been enabled");
 		}
 	    public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args){
 	    	Player p=((Player)sender);
 	    	if(commandLabel.equalsIgnoreCase("build") && p!= null){
-	    //		if(args.length==2)
-	   // 		{
+	    		if(args.length==2)
+	    		{
 	    		Location loc =p.getLocation();
 	    		World w =p.getWorld();
-	    		//String cmd1 = args[2];
+	    		String cmd1 = args[2];
 	        			House.BuildaHouse(loc, w);
 	        			p.sendMessage("Succesfully build a house !");
 	    		return true;
 	    		 }
-	    	//return true;
-	    //	}
+	    	return true;
+	    	}
 	    return false;
 	    	
 
