@@ -1,6 +1,13 @@
-Hello,
+This plugin allow you to build buildings just by typing a command !
+
+Buildings:
+      -House(not finished)
+
+Node :
 
 It's forbidden to copy the code or a part of code for another plugin for minecraft.
+
+Help it :
 
 This plugin is in open source so you can modify the code for update and upgrade it ;)
 For make a new building please create a new class and name it the name of the building.
