@@ -7,7 +7,10 @@ import org.bukkit.World;
 import org.bukkit.block.Block;
 
 public class House {
+	//This class is for build a House the methods is not finished
+	
 	//@param w is the world of the location for register block
+	
 	//@param loc is the location of the player because the house is building around the player
 	public static void BuildaHouse(Location loc,World w) {
 //Register
